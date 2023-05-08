@@ -1,12 +1,6 @@
-/** @type {import('tailwindcss').Config} */
+const preset = require('./vendor/filament/filament/tailwind.config.preset')
+
 module.exports = {
+    presets: [preset],
     content: ["./resources/views/**/*.blade.php"],
-    darkMode: "class",
-    theme: {
-        extend: {},
-    },
-    corePlugins: {
-        preflight: false,
-    },
-    plugins: [],
-};
+}

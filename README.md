@@ -26,7 +26,7 @@ To use the widget, just include it either in your `filament.php` config file und
     'path' => app_path('Filament/Widgets'),
     'register' => [
         ...
-        \FilamentVersions\FilamentVersionsWidget::class
+        \FilamentVersions\VersionsWidget::class
     ],
 ],
 ```
